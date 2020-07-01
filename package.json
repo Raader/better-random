@@ -1,6 +1,6 @@
 {
   "name": "better-random",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "its a better random object",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Raader/better-random/packages"
-  }
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ]
 }
