@@ -22,5 +22,4 @@ class RandomF {
     }
 }
 const randomF = new RandomF();
-console.log(randomF.randPick(["elma", "armut", "karpuz"]));
 module.exports = randomF;
