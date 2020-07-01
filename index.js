@@ -13,7 +13,14 @@ class RandomF {
     randFloat(min, max) {
         return (Math.random() * (max - min)) + min;
     }
+    /**
+     * picks an random element from an array
+     * @param {Array} array 
+     */
+    randPick(array) {
+        return array[this.randInt(0, array.length)];
+    }
 }
 const randomF = new RandomF();
-
+console.log(randomF.randPick(["elma", "armut", "karpuz"]));
 module.exports = randomF;
